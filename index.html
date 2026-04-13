@@ -1,11 +1,128 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Personal Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Welcome!</h1>
-  <p>This is my personal site hosted on GitHub Pages.</p>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Your short description — e.g., Researcher • Developer • Designer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                Write a short introduction about yourself here.
+                You can describe your background, interests, and what you do.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Short description of your project.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Short description of your project.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Short description of your project.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Email: you@example.com</p>
+            <p>GitHub: <a href="#">github.com/yourname</a></p>
+            <p>LinkedIn: <a href="#">your LinkedIn profile</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Your Name</p>
+    </footer>
+
 </body>
 </html>
+``
